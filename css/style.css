@@ -17,6 +17,46 @@ body {
     color: #fff;
     font-size: 3.2em;
   }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -60%); /* Adjust vertical translation to move it up */
+    color: white;
+    font-size: 2rem; /* Adjust font size as needed */
+    text-align: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%; /* Ensure it spans the container */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.video-background {
+    width: 100%;
+    height: auto;
+}
+.margin-top-for-sections {
+  margin-top:1.5em;
+}
+.padding-top-for-sections {
+  padding-top: 1.5em;
+}
+.bg-rainbow{
+  background-image: radial-gradient(circle at 0 0, rgba(255, 255, 255, .94), rgba(255, 255, 255, .94) 50%, rgba(255, 255, 255, .94)), radial-gradient(circle at 0 0, #e02020, #fa6400 17%, #fab400 32%, #6ed200 50%, #0091ff 67%, #6437ff 83%, #ff23e1);
+}
   .bg-dark{
   	background-color: #001f3e!important;
   }

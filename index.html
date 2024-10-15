@@ -111,12 +111,17 @@ if(isset($_POST['submitEmail'])){
 
 
     <!--inserting background video here-->
+    <div class="video-container">
     <div class="embed-responsive embed-responsive-16by9">
+      <h1 class="overlay-text">Car, Motorcycle and Truck Driving Classes in Queens, New York</h1>
       <h2 class="home-title">D & E Driving School</h2>
-      <video autoplay loop class="embed-responsive-item">
+      <video autoplay loop muted class="embed-responsive-item video-background">
           <source src="videos/home-video.mp4" type="video/mp4">
       </video>
     </div>
+  </div>
+
+    
 
     <!--<div class="intro-section" id="home-section" style="background-color: #ccc;">
       <div class="container">
@@ -134,9 +139,8 @@ if(isset($_POST['submitEmail'])){
     </div>-->
 
 
-    <div class="site-section">
+    <div class="">
       <div class="container">
-
         <!--<div class="row justify-content-center text-center mb-5">
           <div class="col-md-8 section-heading">
             <span class="subheading">Stay Healthy</span>
@@ -370,13 +374,13 @@ if(isset($_POST['submitEmail'])){
     </div>-->
 
     <!--Start Of LONG BLOCK-->
-    <div class="site-section" id="schedule-section">
+    <div class="" id="schedule-section">
       <div class="container">
-        <div class="site-section" id="services-section">
+        <div class="">
       <div class="container">
         <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
           <div class="col-md-8  section-heading">
-            <h2 class="heading mb-3">Deluxe Packages</h2>
+            <h2 class="heading mb-3 margin-top-for-sections">Deluxe Packages</h2>
             <p class="lead text-dark">Save money by booking a deluxe package.
               </p>
           </div>
@@ -500,10 +504,10 @@ if(isset($_POST['submitEmail'])){
     </div>
 <!--INSERT Individual Fees Chart-->
 <!--Start Individual Tables-->
-        <div class="row justify-content-center text-center mb-5 site-section" id="trainer-section">
+        <div class="row justify-content-center text-center mb-5" id="trainer-section">
           <div class="col-md-12 section-heading">
             <!--<h2 class="heading mb-3">Ayaan Busing and Trucking Institute</h2>-->
-            <h4>Individual Fees</h4>
+            <h2 class="heading mb-3 margin-top-for-sections">Individual Fees</h2>
             <table class="table table-striped table-hover">
               <tbody>
                 <tr>
@@ -1097,12 +1101,11 @@ if(isset($_POST['submitEmail'])){
       </div>
     </div>
 
-    <div class="site-section bg-light contact-wrap" id="contact-section">
+    <div class="site-section bg-rainbow contact-wrap" id="contact-section">
       <div class="container">
 
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-8  section-heading">
-            <span class="subheading">Get In Touch</span>
             <h2 class="heading mb-3 google-font-julius-sans-one">Contact Us</h2>
             <p>Send us a message
             </p>
@@ -1162,13 +1165,14 @@ if(isset($_POST['submitEmail'])){
     </div>
 
 
-    <footer class="footer-section bg-dark">
+    <footer class="padding-top-for-sections bg-dark text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3 class="text-white">Office Hours</h3>
-            <p>Monday - Sunday<br />9am - 6pm</p>
-            <a href="tel:+1-718-441-2533">718-441-2533</a>
+            <h3 class="text-white">D & E Driving School</h4>
+            <h4 class="text-white">Car</h4>
+            <h4 class="text-white">Motorcycle</h4>
+            <h4 class="text-white">Truck</h4>
           </div>
 
           <!--<div class="col-md-3 ml-auto">
@@ -1183,7 +1187,25 @@ if(isset($_POST['submitEmail'])){
 
           <div class="col-md-4">
             <h3 class="text-white">Five Hour Pre-Licensing Course Hours</h3>
-            <p>Wednesday & Saturday<br />11:30am - 4:30pm</p>
+            <p class="text-white">Wednesday & Saturday<br />11:30am - 4:30pm</p>
+            <!--<h3 class="text-white">Subscribe</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, odio beatae accusantium.
+            </p>
+            <form action="#">
+              <div class="d-flex mb-5">
+                <input type="text" class="form-control rounded-0" placeholder="Email">
+                <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
+              </div>
+            </form>-->
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="text-white">Office Hours</h3>
+            <p class="text-white">Monday - Sunday<br />9am - 6pm</p>
+            <a href="tel:+1-718-441-2533">718-441-2533</a>
+            <!-- <h3 class="text-white">Car</h3>
+            <h3 class="text-white">Motorcycle</h3>
+            <h3 class="text-white">Truck</h3> -->
             <!--<h3 class="text-white">Subscribe</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, odio beatae accusantium.
             </p>
@@ -1205,7 +1227,7 @@ if(isset($_POST['submitEmail'])){
               document.write(new Date().getFullYear());
             </script>
 
-            All rights reserved | D & E Driving School<br><a class="sunny-morning-gradient-text signature" href="https://fullstackwebdevelopers.com/" target="_blank">Web Design by Full Stack Web Developers</a>
+            All rights reserved | D & E Driving School<br>
             <i class="icon-heart text-danger" aria-hidden="true"></i>
             </div>
           </div>
