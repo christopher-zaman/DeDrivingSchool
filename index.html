@@ -68,6 +68,8 @@ if(isset($_POST['submitEmail'])){
   <link rel="stylesheet" href="css/aos.css">
   <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -95,7 +97,7 @@ if(isset($_POST['submitEmail'])){
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <!--<li><a href="#services-we-offer" class="nav-link">Services</a></li>-->
                 <li><a href="#services-section" class="nav-link">Packages</a></li>
-                <li><a href="#schedule-section" class="nav-link">Deluxe Packages</a></li>
+                <li><a href="#schedule-section" class="nav-link">Driving Packages</a></li>
                 <li><a href="#trainer-section" class="nav-link">Individual Fees</a></li>
                 <li><a href="#get-started-section" class="nav-link">Get Started</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
@@ -254,7 +256,7 @@ if(isset($_POST['submitEmail'])){
                 <tr>
                 	<td class="align-middle border border-primary" rowspan="4">1</td>
                   <td class="border border-primary" colspan="3">Three (3) 45 Minute Lessons</td>
-                  <td class=" border border-primary align-middle text-success font-weight-bold" rowspan="4">$265<br /></td>
+                  <td class=" border border-primary align-middle text-success font-weight-bold" rowspan="4">$365<br /></td>
                 </tr>
                 <tr>
                   <td class="border border-primary" colspan="3">Motorcycle and Instructor for Road Test</td>
@@ -269,7 +271,7 @@ if(isset($_POST['submitEmail'])){
                 <tr>
                   <td class="align-middle border border-primary" rowspan="4">2</td>
                   <td class="border border-primary" colspan="3">Six (6) 45 Minute Lessons</td>
-                  <td class=" border border-primary align-middle text-success font-weight-bold" rowspan="4">$410<br /></td>
+                  <td class=" border border-primary align-middle text-success font-weight-bold" rowspan="4">$550<br /></td>
                 </tr>
                 <tr>
                   <td class="border border-primary" colspan="3">Motorcycle and Instructor for Road Test</td>
@@ -380,8 +382,8 @@ if(isset($_POST['submitEmail'])){
       <div class="container">
         <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
           <div class="col-md-8  section-heading">
-            <h2 class="heading mb-3 margin-top-for-sections">Deluxe Packages</h2>
-            <p class="lead text-dark">Save money by booking a deluxe package.
+            <h2 class="heading mb-3 margin-top-for-sections">Driving Packages</h2>
+            <p class="lead text-dark">Save money by booking a driving package.
               </p>
           </div>
         </div>
@@ -398,7 +400,7 @@ if(isset($_POST['submitEmail'])){
               <tbody>
                 <tr>
                   <td class="border border-warning" colspan="3">Five (5) 45 Minute Lessons</td>
-                  <td class=" border border-warning align-middle text-success font-weight-bold" rowspan="4">$330<br /><del>$345</del></td>
+                  <td class=" border border-warning align-middle text-success font-weight-bold" rowspan="4">$385<br /><del>$410</del></td>
                 </tr>
                 <tr>
                   <td class="border border-warning" colspan="3">5 Hour (Pre-Licensing) Class</td>
@@ -425,7 +427,7 @@ if(isset($_POST['submitEmail'])){
               <tbody>
                 <tr>
                   <td class="border border-danger" colspan="3">Ten (10) 45 Minute Lessons</td>
-                  <td class="border border-danger align-middle text-success font-weight-bold" rowspan="4">$535<br /><del>$595</del></td>
+                  <td class="border border-danger align-middle text-success font-weight-bold" rowspan="4">$625<br /><del>$660</del></td>
                 </tr>
                 <tr>
                   <td class="border border-danger" colspan="3">5 Hour (Pre-Licensing) Class</td>
@@ -452,7 +454,7 @@ if(isset($_POST['submitEmail'])){
               <tbody>
                 <tr>
                   <td class="border-info" colspan="3">Fifteen (15) 45 Minute Lessons</td>
-                  <td class="border-info align-middle text-success font-weight-bold" rowspan="6" >$745<br /><del>$820</del></td>
+                  <td class="border-info align-middle text-success font-weight-bold" rowspan="6" >$855<br /><del>$910</del></td>
                 </tr>
                 <tr>
                   <td class="border-info" colspan="3">5 Hour (Pre-Licensing)</td>
@@ -507,75 +509,76 @@ if(isset($_POST['submitEmail'])){
         <div class="row justify-content-center text-center mb-5" id="trainer-section">
           <div class="col-md-12 section-heading">
             <!--<h2 class="heading mb-3">Ayaan Busing and Trucking Institute</h2>-->
-            <h2 class="heading mb-3 margin-top-for-sections">Individual Fees</h2>
+            <h2 class="heading mb-3 margin-top-for-sections">Individual Price</h2>
             <table class="table table-striped table-hover">
               <tbody>
                 <tr>
-                  <th scope="row">Driving Lesson</th>
-                  <td>Automatic</td>
-                  <td>45 Minutes</td>
-                  <td>$45</td>
+                  <th scope="row" class="text-info">Driving Lesson</th>
+                  <td class="text-dark">Automatic</td>
+                  <td class="text-dark">45 Minutes</td>
+                  <td class="text-success">$50</td>
+                </tr>
+                
+                <tr>
+                  <th scope="row" class="text-info">Motorcycle Scooter Lesson</th>
+                  <td class="text-dark">Automatic</td>
+                  <td class="text-dark">45 Minutes</td>
+                  <td class="text-success">$75</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-info">Highway Lessons</th>
+                  <td class="text-dark">Manual</td>
+                  <td class="text-dark">90 Minutes</td>
+                  <td class="text-success">$140</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-info">Five Hour Class</th>
+                  <td class="text-dark">(5 hours)</td>
+                  <td class="text-dark">Pre-Licensing</td>
+                  <td class="text-success">$60</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-info">Road Test Appointment</th>
+                  <td class="text-dark">(1)</td>
+                  <td class="text-dark">Fee</td>
+                  <td class="text-success">$20</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-info">Car & Instructor for Road Test</th>
+                  <td></td>
+                  <td></td>
+                  <td class="text-success">$80</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-info">Express Road Test Appointment</th>
+                  <td class="text-dark">(1)</td>
+                  <td class="text-dark">45 Minutes</td>
+                  <td class="text-success">$80</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-info">Motorcycle & Instructor for Road Test</th>
+                  <td></td>
+                  <td></td>
+                  <td class="text-success">$200</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-info">CDL Driving Lesson</th>
+                  <td class="text-dark">Class A, B, B.PS, C</td>
+                  <td class="text-dark">60 Minutes</td>
+                  <td class="text-success">$200</td>
+                </tr>
+                <!-- <tr>
+                  <th scope="row">CDL Road Test</th>
+                  <td>Instructor</td>
+                  <td>Road Test</td>
+                  <td>$250</td>
                 </tr>
                 <tr>
                   <th scope="row">Highway Lesson</th>
                   <td></td>
                   <td>45 Minutes</td>
                   <td>$65</td>
-                </tr>
-                <tr>
-                  <th scope="row">Motorcycle Scooter Lesson</th>
-                  <td>Automatic</td>
-                  <td>45 Minutes</td>
-                  <td>$50</td>
-                </tr>
-                <tr>
-                  <th scope="row">Motorcycle Lesson</th>
-                  <td>Manual</td>
-                  <td>45 Minutes</td>
-                  <td>$80</td>
-                </tr>
-                <tr>
-                  <th scope="row">Five Hour Class</th>
-                  <td>(5)</td>
-                  <td>Pre-Licensing</td>
-                  <td>$50</td>
-                </tr>
-                <tr>
-                  <th scope="row">Stick Shift Lesson</th>
-                  <td>(1)</td>
-                  <td>45 Minutes</td>
-                  <td>$70</td>
-                </tr>
-                <tr>
-                  <th scope="row">Road Test</th>
-                  <td>Appointment</td>
-                  <td>Fee</td>
-                  <td>$20</td>
-                </tr>
-                <tr>
-                  <th scope="row">Car</th>
-                  <td>Instructor</td>
-                  <td>Road Test</td>
-                  <td>$60</td>
-                </tr>
-                <tr>
-                  <th scope="row">Motorcycle</th>
-                  <td>Instructor</td>
-                  <td>Road Test</td>
-                  <td>$125</td>
-                </tr>
-                <tr>
-                  <th scope="row">CDL Driving Lesson</th>
-                  <td>Class A, B, B.PS, C</td>
-                  <td>60 Minutes</td>
-                  <td>$120</td>
-                </tr>
-                <tr>
-                  <th scope="row">CDL Road Test</th>
-                  <td>Instructor</td>
-                  <td>Road Test</td>
-                  <td>$250</td>
-                </tr>
+                </tr> -->
               </tbody>
             </table>
           </div>
@@ -1066,8 +1069,8 @@ if(isset($_POST['submitEmail'])){
 
             <div>
               <img src="https://img.icons8.com/officel/80/000000/money-transfer.png">
-              <h5>Small Deposit will start your package</h5>
-              <p>Balance due within two weeks Call now to start the process.<br /><a href="tel:+1-718-441-2533">718-441-2533</a></p>
+              <h5 class="text-dark">Small Deposit will start your package</h5>
+              <p class="text-dark">Balance due within two weeks Call now to start the process.<br /><a href="tel:+1-718-441-2533" class="text-info">718-441-2533</a></p>
             </div>
 
           </div>
@@ -1075,24 +1078,24 @@ if(isset($_POST['submitEmail'])){
           <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
             <div>
               <img src="https://img.icons8.com/officel/80/000000/card-in-use.png">
-              <h5>Pre payment reserves your seat</h5>
-              <p>Our classes are held weekly and are booked fast. Call now to start the process.<br /><a href="tel:+1-718-441-2533">718-441-2533</a></p>
+              <h5 class="text-dark">Pre payment reserves your seat</h5>
+              <p class="text-dark">Our classes are held weekly and are booked fast. Call now to start the process.<br /><a href="tel:+1-718-441-2533" class="text-info">718-441-2533</a></p>
             </div>
           </div>
 
           <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
             <div>
               <img src="https://img.icons8.com/color/96/000000/school-director.png">
-              <h5>College Trained Instructors</h5>
-              <p>Highly experienced college trained instructors will have you confident on the road!<br /><a href="tel:+1-718-441-2533">718-441-2533</a></p>
+              <h5 class="text-dark">College Trained Instructors</h5>
+              <p class="text-dark">Highly experienced college trained instructors will have you confident on the road!<br /><a href="tel:+1-718-441-2533" class="text-info">718-441-2533</a></p>
             </div>
           </div>
 
           <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
             <div>
               <img src="data:image/png;base64,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">
-              <h5>Nervous Students are our specialty</h5>
-              <p>We have expert instructors who will ensure the best learning experience.<br><a href="tel:+1-718-441-2533">718-441-2533</a></p>
+              <h5 class="text-dark">Nervous Students are our specialty</h5>
+              <p class="text-dark">We have expert instructors who will ensure the best learning experience.<br><a href="tel:+1-718-441-2533" class="text-info">718-441-2533</a></p>
 
             </div>
           </div>
@@ -1107,7 +1110,7 @@ if(isset($_POST['submitEmail'])){
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-8  section-heading">
             <h2 class="heading mb-3 google-font-julius-sans-one">Contact Us</h2>
-            <p>Send us a message
+            <p class="text-dark">Send us a message
             </p>
           </div>
         </div>
@@ -1168,11 +1171,16 @@ if(isset($_POST['submitEmail'])){
     <footer class="padding-top-for-sections bg-dark text-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 text-left">
             <h3 class="text-white">D & E Driving School</h4>
-            <h4 class="text-white">Car</h4>
+              <!-- Email Icon -->
+              <i class="icon-envelope font-size-x-large text-info"><a href="mailto:Dedriving9310@yahoo.com" class="text-white">Dedriving9310@yahoo.com</a></i> 
+              <br>
+              <!-- Phone Icon -->
+              <i class="icon-phone text-info"><a href="tel:+1-718-441-2533" class="text-white font-size-x-large text-white">718-441-2533</a></i> 
+            <!-- <h4 class="text-white">Car</h4>
             <h4 class="text-white">Motorcycle</h4>
-            <h4 class="text-white">Truck</h4>
+            <h4 class="text-white">Truck</h4> -->
           </div>
 
           <!--<div class="col-md-3 ml-auto">
@@ -1202,7 +1210,7 @@ if(isset($_POST['submitEmail'])){
           <div class="col-md-4">
             <h3 class="text-white">Office Hours</h3>
             <p class="text-white">Monday - Sunday<br />9am - 6pm</p>
-            <a href="tel:+1-718-441-2533">718-441-2533</a>
+            <i class="icon-phone text-white "><a href="tel:+1-718-441-2533" class="text-white font-size-x-large">718-441-2533</a></i> 
             <!-- <h3 class="text-white">Car</h3>
             <h3 class="text-white">Motorcycle</h3>
             <h3 class="text-white">Truck</h3> -->
